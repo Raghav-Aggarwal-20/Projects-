@@ -1,0 +1,87 @@
+---
+title: "Quantmod"
+author: "cms"
+date: "February 11, 2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(tidyverse)
+library(quantmod)
+library(PerformanceAnalytics)
+library(RColorBrewer)
+library(tseries)
+library(lubridate)
+library(Quandl)
+Quandl.api_key("zrcB2Ejv9UmvhPCUsy2_")
+
+
+```
+
+
+#Review of last Project (i.e., Ad, Cl, getsymbols, etc.)
+
+```{r}
+
+```
+
+
+# Charting
+
+#Line Graph
+
+```{r}
+
+```
+
+#Candlestick
+
+```{r}
+
+```
+
+
+#Bollinger Bands
+
+```{r pressure, echo=FALSE, fig.cap="A caption", out.width = '100%'}
+knitr::include_graphics("bollingerbands1.gif")
+```
+
+```{r}
+
+```
+
+
+#RSI
+
+```{r pressure, echo=FALSE, fig.cap="A caption", out.width = '100%'}
+knitr::include_graphics("rsi.png")
+```
+
+```{r}
+
+```
+
+
+#MACD
+
+```{r pressure, echo=FALSE, fig.cap="A caption", out.width = '100%'}
+knitr::include_graphics("macd.png")
+```
+
+```{r}
+
+```
+
+
+#Others
+
+
+Next Project:  We will use technical indicators to create buy and sell signals.  
+
+
+
